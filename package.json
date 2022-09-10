@@ -1,0 +1,32 @@
+{
+  "name": "fastify-knex-plugin",
+  "version": "1.0.1",
+  "description": "Fastify KnexJS Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beyazatli/fastify-knex.git"
+  },
+  "keywords": [
+    "Fastify",
+    "KnexJS",
+    "Fastify",
+    "KnexJS",
+    "Fastify",
+    "knex",
+    "plugin"
+  ],
+  "author": "Beyazatli",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beyazatli/fastify-knex/issues"
+  },
+  "homepage": "https://github.com/Beyazatli/fastify-knex#readme",
+  "dependencies": {
+    "fastify-plugin": "^4.2.1",
+    "knex": "^2.3.0"
+  }
+}
