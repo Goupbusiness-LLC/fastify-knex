@@ -27,13 +27,13 @@ const options = {
   }
 }
 
-fastify.register(require('fastify-knexjs'), options, (err) =>
+fastify.register(require('fastify-knex-plugin'), options, (err) =>
   console.error(err)
 );
 
 fastify.get('/', (request, reply) => {
-  console.log(fastify.knex); // Knex DB instance
-});
+  console.log(fastify.knex) // Knex DB instance
+})
 
 fastify.get('/getProgrammers', async(request, reply) => {
   // example get
